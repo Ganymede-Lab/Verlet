@@ -9,9 +9,9 @@ DT = 0.01          # Smaller time step for better accuracy
 # Start the planet at x=10, y=0
 # Give it a "kick" UP (y-velocity) so it doesn't just crash into the sun
 start_pos_x = 10.0
-start_pos_y = 0.0
+start_pos_y = 20.0
 start_vel_x = 0.0
-start_vel_y = 10.0 # Try changing this later! (Too slow = crash, Too fast = escape)
+start_vel_y = 30.0 # Try changing this later! (Too slow = crash, Too fast = escape)
 
 planet = Verlet::Particle.new(start_pos_x, start_pos_y, start_vel_x, start_vel_y, 1.0)
 
